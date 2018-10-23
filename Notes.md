@@ -33,7 +33,7 @@ mongo
 
 ### Operations
 
-| mongodb                                                                          | relational database                           |
+| commands                                                                         |                                               |
 | -------------------------------------------------------------------------------- | --------------------------------------------- |
 | show dbs                                                                         | show all databases                            |
 | show collections                                                                 | show all collections                          |
@@ -77,3 +77,16 @@ db.collection.updateOne({_id: 0}, {$set: {title: "test 2"}}, {upsert: true})
 // delete
 
 ```
+
+### Operators
+
+| Category                     | Operator     |
+| --------------------------- | ----------------------- |
+| database                    | database                |
+| collection                  | table                   |
+| document                    | row                     |
+| lookup                      | join                    |
+| reference                   | foreign key             |
+| single document transaction | multi-table transaction |
+
+## Node.js Driver
